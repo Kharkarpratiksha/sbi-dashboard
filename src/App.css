@@ -23,16 +23,31 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.navbar-brand{
+  padding: auto;
+  margin: auto;
+  color: #ffffff;
+}
+.container-fluid{
+background-color: #184c5b;
+padding: auto;
+}
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #205877;
+  width: 1440px;
+  height: 80px;
+}
+h1 {
+  color: #ffffff;
+}
+.groupdiv{
+  background-color: #85b3c0;
 }
